@@ -1,0 +1,15 @@
+[general]
+import = [
+	"~/.config/alacritty/themes/seoul256-light.toml"
+]
+[window]
+title = "Alacritty"
+dynamic_title = false
+padding.x = 20
+padding.y = 20
+decorations = "Full"
+[cursor]
+style = { shape = "Block", blinking = "Always"}
+[font]
+size = 10
+

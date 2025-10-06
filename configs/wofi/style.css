@@ -1,0 +1,92 @@
+@keyframes fadeIn {
+    0% {
+    }
+    100% {
+    }
+}
+
+* {
+    font-family: "JetBrainsMono Nerd Font Propo";
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.9);
+    background: transparent;
+}
+
+window {
+    all: unset;
+    padding: 12px;
+    border-radius: 16px;
+    background-color: rgba(20, 20, 20,0.6);
+}
+#inner-box {
+    margin: 2px;
+    padding: 5px;
+    border: none;
+}
+#outer-box {
+    border: none;
+}
+#scroll {
+    margin: 0px;
+    border: none;
+}
+#input {
+    all: unset;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    color: #000000;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 8;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+#input image {
+    border: none;
+    color: #000000;
+}
+#input * {
+    border: none;
+    outline: none;
+}
+
+#input:focus {
+    outline: none;
+    border: none;
+    border-radius: 10;
+}
+#text {
+    margin: 5px;
+    border: none;
+    color: #ffffff;
+    outline: none;
+}
+#entry {
+    border: none;
+    margin: 5px;
+}
+#entry arrow {
+    border: none;
+    color: #424242;
+}
+#entry:selected {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+#entry:selected #text {
+    color: #000000;
+}
+
+/*
+Changed the colors of the original source file and some margins/paddings
+Lastly modified on 17/8/2025 by Dimitrios Psaroudakis
+For the icons please find some that you like
+*/
