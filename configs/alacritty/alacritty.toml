@@ -1,6 +1,6 @@
 [general]
 import = [
-	"~/.config/alacritty/themes/seoul256-light.toml"
+	"~/.config/alacritty/themes/chicago95.toml"
 ]
 [window]
 title = "Alacritty"
@@ -9,7 +9,7 @@ padding.x = 20
 padding.y = 20
 decorations = "Full"
 [cursor]
-style = { shape = "Block", blinking = "Always"}
+style = { shape = "underline", blinking = "Always"}
 [font]
 size = 10
 
